@@ -1,6 +1,3 @@
-environment {
-        PATH = "/usr/share/maven/bin:$PATH"
-    }
 node{
       stage('build') {
             echo "-------------- build start --------------"
