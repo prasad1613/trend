@@ -1,4 +1,4 @@
-def registry = 'https://sph.jfrog.io/artifactory/maven/'
+def registry = 'https://sph.jfrog.io'
 node{
       stage('build') {
             echo "-------------- build start --------------"
